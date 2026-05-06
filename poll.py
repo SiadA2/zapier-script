@@ -50,7 +50,6 @@ def check_posts():
                     "post_id": post_id,
                     "read_url": read_url,
                     "first_name": first_name,
-                    "title": title,
                 },
             },
         ).raise_for_status()
